@@ -1,0 +1,114 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color:#E5E5E5;
+    display: flex;
+    justify-content: center;
+}
+
+.gridcontainer{
+margin: 0;
+}
+
+.contactpic{
+    width: 1000px;
+    height: 350px;
+    background-color: #c7ddea;
+    display: flex;
+    justify-content: center;
+}
+
+.hellothere{
+    font-size: 40px;
+    margin: 0;
+    align-self: center;
+}
+
+nav{
+    width: 1000px;
+    background: #E5E5E5;
+    height: 75px;
+    margin: 0px;
+}
+
+.contactbutton a {
+    color: #000000;
+}
+
+ul{
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+li{
+    align-items: center;
+    margin-top: 25px;
+    text-decoration: none;
+    font-family:'Fira Sans', sans-serif;
+    list-style-type: none;
+}
+
+a{
+    color: #A9A19E;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contactform{
+    width: 1000px;
+    height: 600px;
+    background-color: #a9a19e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+form p{
+margin: 5px;
+color: rgba(255, 255, 255, 0.7);
+}
+
+form button{
+    position: relative;
+    left: 230px;
+}
+
+
+.form{
+    padding-top: 100px;
+    width: 400px;
+    height: 500px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.mind{
+    box-sizing: border-box;
+    padding: 30px;
+    width: 450px;
+    height: 500px;
+    display: flex;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.mind h1{
+    padding-top: 40px;
+    align-items: center;
+}
+
+
+footer {
+    width: 1000px;
+    height: 350px;
+    background-color: #777574;
+}
+

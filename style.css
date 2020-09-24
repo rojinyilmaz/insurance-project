@@ -389,3 +389,9 @@ article h1{
     font-size: 35px;
     margin: 0px;
 }
+
+footer {
+    width: 1000px;
+    height: 350px;
+    background-color: #777574;
+}
