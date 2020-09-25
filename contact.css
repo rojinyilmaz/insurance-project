@@ -19,6 +19,13 @@ margin: 0;
     justify-content: center;
 }
 
+.contactpic img{
+    position: relative;
+    height: 300px;
+    left: 170px;
+    top: 54px;
+}
+
 .hellothere{
     font-size: 40px;
     margin: 0;
@@ -54,6 +61,7 @@ li{
     list-style-type: none;
 }
 
+
 a{
     color: #A9A19E;
     text-decoration: none;
@@ -77,6 +85,11 @@ color: rgba(255, 255, 255, 0.7);
 form button{
     position: relative;
     left: 230px;
+    border-radius: 20px;
+    height: 40px;
+    width: 140px;
+    box-shadow: 0px 4px 0px -2px rgba(145,145,189,1);
+    font-family: 'Fira Sans', sans-serif;
 }
 
 
@@ -105,10 +118,81 @@ form button{
     align-items: center;
 }
 
+input{
+    padding: 10px;
+    width: 350px;
+    border-radius: 3px;
+    resize:none;
+    border-style: none;
+}
+
+.contactbox{
+    height: 200px;
+    width: 370px;
+    border-radius: 3px;
+    border-style: none;
+    resize: none;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+
+.send{
+    align-items: flex-end;
+}
+
+.visit{
+    height: 400px;
+    width: 1000px;
+    background-image: url("/img/map.png");
+    background-size: cover;
+    margin: 0px;
+}
+
+.visit h1{
+    margin: 0;
+}
+
+.adress{
+    position: relative;
+    width: 330px;
+    height: 215px;
+    background-color: rgb(250, 177, 49);
+    left: 85px;
+    top: 40px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.adress h1{
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.adress p{
+    font-size: 20;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.pinlogo{
+    width: 90px;
+    display: block;
+    margin-left: 350px;
+}
 
 footer {
     width: 1000px;
     height: 350px;
     background-color: #777574;
 }
+
 
